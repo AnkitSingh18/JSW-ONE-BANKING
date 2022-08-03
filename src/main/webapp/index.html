@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JSW ONE BANK</title>
+<link rel="stylesheet" href="css/bootstrap.css"></link>
+<style>
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+ 
+}
+
+.right {
+  right: 0;
+  
+}
+
+
+
+
+  #frm{
+     width:500px;
+     margin:auto;
+     margin-top:100px;
+  }
+  marquee{
+     margin-top:10px;
+  }
+</style>
+</head>
+<body class="container-fluid">
+    <marquee><h2 class="text-primary">WELCOME TO JSW ONE BANK</h2></marquee>
+ <div class="split left">
+  <div class="centered">
+    
+	<form action="./bankFunctionality" method="post" class="form card" id="frm">
+		<h2 class="bg-danger text-white card-header">Login</h2>
+		<table class="table table-hover">
+		 <tr>
+		 <td>Customer Email</td>
+		 <td><input type="email" name="email" required></td>
+		</tr>
+		<tr>
+		 <td>Password</td>
+		 <td><input type="password" name="password" required></td>
+		</tr>
+
+		<tr class="card-footer">
+         <td><button class="btn btn-outline-success d-block" type="Submit">Submit</button></td>
+		
+		</tr>
+		</table>
+		
+	</form>
+	
+	
+	</div>
+	</div>
+	
+<div class="split right">
+ <div class="centered">
+	
+	<form action="./Signup" method="post" class="form card" id="frm">
+		<h2 class="bg-danger text-white card-header">Signup</h2>
+		<table>
+		<tr>
+		 <td>Customer Name</td>
+		 <td><input type="text" name="user_name" required></td>
+		</tr>
+		<tr>
+		 <tr>
+		 <td>Customer Email</td>
+		 <td><input type="email" name="email" required></td>
+		</tr>
+		<tr>
+		 <td>Password</td>
+		 <td><input type="password" name="password" required></td>
+		</tr>
+
+		<tr class="card-footer">
+         <td><button  class="btn btn-outline-success d-block" type="Submit">Submit</button></td>
+		
+		</tr>
+		</table>
+		</form>
+	</div>
+	</div>
+
+	
+	
+	
+<!-- some js put there -->	
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+	
+</body>
+</html>
