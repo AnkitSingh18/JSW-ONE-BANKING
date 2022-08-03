@@ -5,6 +5,14 @@ The flow chart for the project is below
 
 ![flow chart](https://user-images.githubusercontent.com/43509686/182551664-cbc116d7-8725-4a81-9d08-450c6468b096.jpeg)
 
+
+Steps to follow to run this project on your localhost:
+(i) First install eclipse enterprize edition on your local pc.
+(ii) Then link tomcat on eclipse using jar file.
+(iii) install mysql on your local pc add database schema named jswbank then make a table cutomer in it and define columns in the table in sequence id,user_name,email,password,balance. Add 5-6 values unique users with values specified.
+(iv) please make sure to add mysql connector into the lib folder where you have downloaded tomcat folder on your local pc.
+(v) Run the code and enjoy :).
+
 Note:All the data displayed on the website is fetched from the mysql server according to the user whose credentials have been logged in, running locally the server fetches all the data from different databases and then shows the result for the functionally requested by the user on the website panel from the server.
  
 Jsw One Banking Based System is a web based application that can be used in any system to allow users to sign up and log in using static password.
