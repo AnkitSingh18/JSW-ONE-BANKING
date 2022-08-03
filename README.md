@@ -3,6 +3,7 @@ This is one of my project's in Web Developement field which i have created,basic
 
 The flow chart for the project is below
 
+![flow chart](https://user-images.githubusercontent.com/43509686/182551664-cbc116d7-8725-4a81-9d08-450c6468b096.jpeg)
 
 Note:All the data displayed on the website is fetched from the mysql server according to the user whose credentials have been logged in, running locally the server fetches all the data from different databases and then shows the result for the functionally requested by the user on the website panel from the server.
  
